@@ -1,15 +1,11 @@
-import { Button } from "@/shared/ui/button/Button.tsx";
+import { Input } from "@/shared/ui/input/Input.tsx";
 
 
 export const MainPage = () => {
   return (
     <div>
       главная
-      <Button
-      onClick={() => console.log('Тест')}
-      >
-        Далее
-      </Button>
+      <Input placeholder="напишите ваше имя"/>
     </div>
   );
 }

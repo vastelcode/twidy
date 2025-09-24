@@ -1,0 +1,21 @@
+%clear-focus {
+  box-shadow: 0px 0px 0px transparent;
+  border: none;
+  outline: none;
+}
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+%items-center {
+  display: flex;
+  align-items: center;
+}

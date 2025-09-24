@@ -1,0 +1,21 @@
+@use '@/shared/styles/vars' as *;
+@use '@/shared/styles/placeholders' as *;
+
+.input {
+  @extend %clear-focus;
+  @extend %items-center;
+
+  width: 380px;
+  height: 56px;
+  background-color: $color-bg;
+  border-radius: 20px;
+  padding: 0px 30px;
+
+  font-weight: 700;
+  font-size: $fz-s;
+  color: $color-header;
+
+  &::placeholder {
+    color: $color-text;
+  }
+}
