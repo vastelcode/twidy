@@ -1,0 +1,22 @@
+@use '@/shared/styles/vars' as *;
+@use '@/shared/styles/mixins' as *;
+
+.btn {
+  width: fit-content;
+  min-width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: $color-purple;
+  transition-duration: $tr-dur;
+  border: none;
+  padding: 0px 7px;
+  box-sizing: content-box;
+
+  font-weight: 700;
+  font-size: $fz-s;
+  color: $color-white;
+
+  &:hover {
+    @include btn-shadow($color-purple);
+  }
+}
