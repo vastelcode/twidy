@@ -1,0 +1,31 @@
+@use '@/shared/styles/vars' as *;
+
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.line {
+  width: 3px;
+  height: 24px;
+  border-radius: 10px;
+  background-color: #E1E2EB;
+}
+
+.btn {
+  width: auto;
+  height: 24px;
+
+  color: $color-header;
+  font-weight: 700;
+  font-size: $fz-s;
+
+  background: transparent;
+  border: none;
+  outline: none;
+
+  box-sizing: content-box;
+  padding: 0px 12px;
+}

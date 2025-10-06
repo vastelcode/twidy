@@ -1,0 +1,36 @@
+@use '@/shared/styles/vars' as *;
+
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.avatar {
+  width: 68px;
+  height: 75px;
+  border-radius: 20px;
+}
+.circle-online {
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: $color-green;
+  border: 5px solid $color-white;
+  box-sizing: content-box;
+}
+
+.text-fullname {
+  font-weight: 700;
+  font-size: $fz-s;
+  color: $color-header;
+}

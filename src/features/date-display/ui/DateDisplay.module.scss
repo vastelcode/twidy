@@ -1,0 +1,14 @@
+@use '@/shared/styles/vars' as *;
+
+.date-display {
+  color: $color-text;
+  font-weight: 700;
+  font-size: $fz-s;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.date-text, .date-day-of-week {
+  text-transform: uppercase;
+}

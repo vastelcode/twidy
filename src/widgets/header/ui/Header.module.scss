@@ -2,5 +2,22 @@
 @use '@/shared/styles/placeholders' as *;
 
 .header {
+  @extend %flex-center;
+  grid-area: 1 / 1 / 2 / 3;
+}
+.content {
+  @extend %justify-between;
+  align-items: center;
+  width: $size-1;
+  height: auto;
+}
 
+.logo {
+  width: 96px;
+  height: 109px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 10px;
 }

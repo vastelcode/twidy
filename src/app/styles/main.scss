@@ -1,6 +1,18 @@
 @forward './fonts.scss';
 @forward './reset.scss';
 
+@use '@/shared/styles/vars' as *;
+
 * {
   font-family: 'Nunito';
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 109px auto;
+  grid-template-columns: 109px auto;
+  background-color: $color-bg;
+  padding: 30px 60px;
 }
