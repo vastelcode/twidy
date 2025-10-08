@@ -2,6 +2,7 @@
 @forward './reset.scss';
 
 @use '@/shared/styles/vars' as *;
+@use '@/shared/styles/animations' as *;
 
 * {
   font-family: 'Nunito';
@@ -15,4 +16,8 @@
   grid-template-columns: 109px auto;
   background-color: $color-bg;
   padding: 30px 60px;
+}
+
+.page {
+  @include fade-in(0.3s);
 }

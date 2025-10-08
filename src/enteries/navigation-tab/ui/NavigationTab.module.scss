@@ -1,0 +1,21 @@
+@use '@/shared/styles/vars' as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.img {
+  width: 32px;
+  height: 32px;
+}
+.text {
+  font-weight: 700;
+  font-size: $fz-s;
+  color: $color-text;
+  transition: $tr-dur;
+  &-active, &:hover {
+    color: $color-header;
+  }
+}

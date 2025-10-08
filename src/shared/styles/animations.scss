@@ -1,0 +1,14 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@mixin fade-in($dur: 0.3s) {
+  animation: fade-in ease-in-out $dur;
+}

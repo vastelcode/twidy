@@ -4,3 +4,8 @@
 .sidebar {
   grid-area: 2 / 1 / 3 / 2;
 }
+
+.nav {
+  @extend %flex-col;
+  gap: 30px;
+}

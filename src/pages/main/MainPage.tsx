@@ -1,6 +1,6 @@
 export const MainPage = () => {
   return (
-    <div>
+    <div className="page">
       главная
     </div>
   );
