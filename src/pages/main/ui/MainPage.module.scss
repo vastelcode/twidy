@@ -1,0 +1,14 @@
+@use '@/shared/styles/vars' as *;
+@use '@/shared/styles/placeholders' as *;
+@use '@/shared/styles/animations' as *;
+
+.wrapper {
+  @extend %justify-center;
+  padding-top: 40px
+}
+
+.content {
+  @extend %flex-col;
+  gap: 20px;
+  width: 716px;
+}

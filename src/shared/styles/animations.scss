@@ -10,5 +10,5 @@
 }
 
 @mixin fade-in($dur: 0.3s) {
-  animation: fade-in ease-in-out $dur;
+  animation: fadeIn ease-in-out $dur;
 }

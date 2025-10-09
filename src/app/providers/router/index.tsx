@@ -4,7 +4,7 @@ import { RoutePaths } from "./paths.ts";
 
 import { Layout } from "@/app/layout/Layout.tsx";
 
-import { MainPage } from "@/pages/main/MainPage.tsx";
+import { MainPage } from "@/pages/main/index.ts";
 import { LoginPage } from "@/pages/login/LoginPage.tsx";
 import { MessagesPage } from "@/pages/messages/index.ts";
 import { SearchPage } from "@/pages/search/index.ts";
